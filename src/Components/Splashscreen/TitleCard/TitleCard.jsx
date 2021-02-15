@@ -10,7 +10,7 @@ const TitleCard = () => {
     }, [])
 
     return (
-        <div className={`TitleCard ${isLoaded ? "TitleCard-loaded" : "TitleCard-preloaded"}`}>
+        <div className={`TitleCard ${isLoaded ? "TitleCard-loaded" : ""}`}>
             <div className="left-panel">
                 <div className="name-title">
                     <p className="my-name">Sean Demske</p>
