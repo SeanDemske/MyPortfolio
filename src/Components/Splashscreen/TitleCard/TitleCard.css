@@ -1,0 +1,156 @@
+.Splashscreen .TitleCard {
+    position: absolute;
+    transition: all 1s ease-out;
+}
+
+.TitleCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 0;
+    bottom: 5%;
+}
+
+.TitleCard-loaded {
+    opacity: 1;
+    bottom: 25%;
+}
+
+.TitleCard .left-panel {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.TitleCard .left-panel .my-name {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.TitleCard .left-panel .my-title {
+    color: #676767;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.TitleCard .left-panel .nav-links {
+    margin-bottom: 3rem;
+}
+
+.TitleCard .left-panel .nav-links a {
+    margin-right: 1rem;
+}
+
+a:first-of-type {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+a:first-of-type:focus {
+    -webkit-box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.34); 
+    box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.34);
+}
+
+a:first-of-type:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(77, 77, 77);
+    border: 1px solid rgb(77, 77, 77);
+    transition: all .2s ease-in-out
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    background: none;
+    border: 1px solid black;
+    padding: .5rem 1rem;
+    transition: all .2s ease-in-out
+}
+
+a:focus {
+    -webkit-box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.34); 
+    box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.34);
+}
+
+a:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(77, 77, 77);
+    border: 1px solid rgb(77, 77, 77);
+}
+
+.TitleCard .right-panel {
+    margin-left: 2rem;
+}
+
+.TitleCard .right-panel img {
+    width: 400px;
+}
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 1100px) {
+    .Splashscreen .TitleCard {
+        position: static;
+    }
+    
+    .TitleCard {
+        flex-direction: column;
+        justify-content: center;
+        margin: auto 0;
+        height: max-content
+    }
+
+    .TitleCard .left-panel .my-name {
+        text-align: center;
+    }
+    
+    .TitleCard .left-panel .my-title {
+        text-align: center;
+    }
+
+    .TitleCard .left-panel .nav-links {
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+    .TitleCard .right-panel {
+        margin-left: 0rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .TitleCard .left-panel .nav-links {
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .TitleCard .left-panel .nav-links a {
+        margin: .5rem 0;
+        width: 300px;
+    }
+
+    .TitleCard .left-panel .my-name {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    
+    .TitleCard .left-panel .my-title {
+        color: #676767;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    .TitleCard .right-panel img {
+        width: 300px;
+    }
+}
