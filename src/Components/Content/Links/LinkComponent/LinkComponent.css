@@ -1,0 +1,28 @@
+.LinkComponent {
+    text-align: center;
+}
+
+.LinkComponent a {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 5rem;
+}
+
+.LinkComponent a:hover {
+    background-color: transparent;
+    border: none;
+    color: rgb(65, 65, 65);
+}
+
+.LinkComponent a i {
+    margin: 2rem .5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .LinkComponent a {
+        font-size: 2rem;
+    }
+}
+
+

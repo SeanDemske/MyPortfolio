@@ -1,6 +1,7 @@
 import imgCookbook from "./img/project_Cookbook.png";
 import imgLetsGoal from "./img/project_LetsGoal.png";
 import imgMatching from "./img/project_MatchingMania.png"
+import imgPortfolio from "./img/project_Portfolio.png";
 
 const ProjectData = [
     {
@@ -27,6 +28,14 @@ const ProjectData = [
         img: imgMatching,
         src: "https://github.com/SeanDemske/memory-game",
         demo: "https://seandemske.github.io/memory-game/",
+    },
+    {
+        id: 3,
+        title: "Portfolio",
+        description: "The website you are currently on right now! Designed using Figma and created using the React framework with CSS written from scratch",
+        img: imgPortfolio,
+        src: "https://github.com/SeanDemske/MyPortfolio",
+        demo: "https://seandemske.com/",
     }
 ]
 
