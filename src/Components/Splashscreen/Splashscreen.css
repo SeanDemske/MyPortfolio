@@ -5,3 +5,10 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (min-width: 2560px) {
+    .Splashscreen {
+        width: 2560px;
+        height: 1440px;
+    }
+}

@@ -1,4 +1,6 @@
 import Splashscreen from "./Components/Splashscreen/Splashscreen";
+import AboutMe from "./Components/Content/AboutMe/AboutMe";
+import Projects from "./Components/Content/Projects/Projects"
 import './App.css';
 
 function App() {
@@ -8,10 +10,8 @@ function App() {
         <Splashscreen />
       </section>
       <section id="Content">
-        <h1>Content 1</h1>
-        <h1>Content 2</h1>
-        <h1>Content 3</h1>
-        <h1>Content 4</h1>
+        <AboutMe />
+        <Projects />
       </section>
     </div>
   );

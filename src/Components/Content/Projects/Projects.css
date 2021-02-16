@@ -1,0 +1,12 @@
+.Projects h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+    .Projects h1 {
+        font-size: 3rem;
+    }
+}

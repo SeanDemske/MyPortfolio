@@ -1,0 +1,43 @@
+.AboutMe h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.AboutMe p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 3rem 0;
+}
+
+.AboutMe a {
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: #676767;
+    text-decoration: underline;
+}
+
+.AboutMe a:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: #929292;
+    border: none;
+}
+
+@media screen and (max-width: 800px) {
+    .AboutMe h1 {
+        font-size: 3rem;
+    }
+
+    .AboutMe p {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: 2rem 0;
+    }
+
+    .AboutMe a {
+        font-size: 1.5rem;
+    }
+}
+    
