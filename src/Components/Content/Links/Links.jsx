@@ -7,7 +7,7 @@ import "./Links.css";
 const Links = () => {
     return (
         <div className="Links">
-            <h1>Links</h1>
+            <h1>LINKS</h1>
             <div>{LinksData.map(link => <LinkComponent data={link} key={link.id} />)}</div>
         </div>
     );

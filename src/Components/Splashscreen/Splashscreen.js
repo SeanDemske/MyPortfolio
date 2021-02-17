@@ -5,7 +5,7 @@ import "./Splashscreen.css";
 
 const Splashscreen = () => {
     return (
-        <div className="Splashscreen">
+        <div id="splashscreen-section" className="Splashscreen">
             <FramingShapes />
             <TitleCard />
         </div>

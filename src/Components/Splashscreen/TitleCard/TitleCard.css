@@ -35,7 +35,7 @@
 }
 
 .TitleCard .left-panel .nav-links {
-    margin-bottom: 3rem;
+    margin-bottom: 7rem;
 }
 
 .TitleCard .left-panel .nav-links a {
@@ -117,6 +117,7 @@ a:hover {
         display: flex;
         justify-content: center;
         margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 
     .TitleCard .right-panel {

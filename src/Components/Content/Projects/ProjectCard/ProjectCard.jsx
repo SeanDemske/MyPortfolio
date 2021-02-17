@@ -8,11 +8,11 @@ const ProjectCard = ({ data }) => {
             <div className="left-panel">
                 <div className="project-info">
                     <h1>{ title }</h1>
-                    <p>{ `${description} `} {blog ? <a className="hyperlink" href={ blog }>Read More</a> : ""}</p>
+                    <p>{ `${description} `} {blog ? <a className="hyperlink" target="_blank" href={ blog }>Read More</a> : ""}</p>
                 </div>
                 <div className="links">
-                    <a href={src}>View Source</a>
-                    <a href={demo}>View Live</a>
+                    <a target="_blank" href={src}>View Source</a>
+                    <a target="_blank" href={demo}>View Live</a>
                 </div>
             </div>
             <div className="right-panel">

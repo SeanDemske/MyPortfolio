@@ -4,7 +4,7 @@ import "./AboutMe.css";
 const AboutMe = () => {
     return (
         <div className="AboutMe">
-            <h1>About Me</h1>
+            <h1>ABOUT ME</h1>
             <p>
                 I'm a fullstack developer and I enjoy bringing
                 my skillset and creativity to the table in a 
@@ -14,7 +14,7 @@ const AboutMe = () => {
                 Since then I have translated those skills over 
                 to my career as a developer!
             </p>
-            <p>P.S. I used to develop content for popular videogames!<a href="https://steamcommunity.com/id/SMasters9106/myworkshopfiles/">Check out my Steam Workshop</a></p>
+            <p>P.S. I used to develop content for popular videogames!<a target="_blank" href="https://steamcommunity.com/id/SMasters9106/myworkshopfiles/">Check out my Steam Workshop</a></p>
         </div>
     );
 }

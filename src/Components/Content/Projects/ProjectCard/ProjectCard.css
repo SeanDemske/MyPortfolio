@@ -1,7 +1,7 @@
 .ProjectCard {
     display: flex;
     justify-content: space-between;
-    margin: 3rem 0;
+    margin: 1rem 0;
 }
 
 .ProjectCard .left-panel {
@@ -19,12 +19,12 @@
 }
 
 .ProjectCard .left-panel p {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
 .ProjectCard .left-panel .links {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .ProjectCard .left-panel .links a {
@@ -37,7 +37,7 @@
     background-color: transparent;
     border: none;
     color: #676767;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     padding: 0;
     text-decoration: underline;
     font-weight: 500;
@@ -52,7 +52,7 @@
 }
 
 .ProjectCard .right-panel img {
-    width: 500px;
+    width: 650px;
     -webkit-box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.25); 
     box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.2);
 }
@@ -63,6 +63,15 @@
 @media screen and (max-width: 2500px) {
     .ProjectCard .left-panel {
         padding: 2rem 5rem 2rem 0rem;
+    }
+    .ProjectCard .right-panel img {
+        width: 500px;
+    }
+    .ProjectCard .left-panel p {
+        font-size: 1.25rem;
+    }
+    .ProjectCard .left-panel .hyperlink {
+        font-size: 1.25rem;
     }
 }
 
@@ -135,7 +144,7 @@
         align-items: center;
     }
     .ProjectCard .left-panel .links a {
-        width: 120px;
+        width: 250px;
         text-align: center;
         margin: .25rem 0;
     }
@@ -156,7 +165,7 @@
         flex-direction: column;
     }
     .ProjectCard .left-panel .links a {
-        width: 200px;
+        width: 250px;
         margin: .10rem 0;
     }
 }

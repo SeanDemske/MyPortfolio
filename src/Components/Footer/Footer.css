@@ -22,3 +22,7 @@
     border: none;
     color: #676767;
 }
+
+.Footer a:focus {
+    color: white;
+}

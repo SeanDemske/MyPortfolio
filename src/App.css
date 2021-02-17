@@ -3,14 +3,14 @@
 }
 
 #Content > div {
-    margin: 0rem 40rem 15rem 40rem;
+    margin: 0rem 30rem 15rem 30rem;
 }
 
 /* RESPONSIVENESS */
 
 @media screen and (max-width: 2500px) {
     #Content > div {
-        margin: 0rem 40rem 15rem 40rem;
+        margin: 0rem 30rem 15rem 30rem;
     }
 }
 
@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 1600px) {
     #Content > div {
-        margin: 0rem 10rem 15rem 10rem;
+        margin: 0rem 7rem 15rem 5rem;
     }
 }
 

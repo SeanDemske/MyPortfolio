@@ -17,8 +17,8 @@ const TitleCard = () => {
                     <p className="my-title">Software Engineer</p>
                 </div>
                 <div className="nav-links">
-                    <a href="https://seandemske.com">View Projects</a>
-                    <a href="seandemske.com">View Blog</a>
+                    <a href="#projects-section">View Projects</a>
+                    <a target="_blank" href="https://blog.seandemske.com/">View Blog</a>
                 </div>
             </div>
             <div className="right-panel">
