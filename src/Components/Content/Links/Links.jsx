@@ -8,7 +8,7 @@ const Links = () => {
     return (
         <div className="Links">
             <h1>LINKS</h1>
-            <div>{LinksData.map(link => <LinkComponent data={link} key={link.id} />)}</div>
+            <div className="icons">{LinksData.map(link => <LinkComponent data={link} key={link.id} />)}</div>
         </div>
     );
 }

@@ -1,14 +1,14 @@
 .ProjectCard {
     display: flex;
     justify-content: space-between;
-    margin: 1rem 0;
+    margin: 4rem 0;
 }
 
 .ProjectCard .left-panel {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 2rem 10rem 2rem 0;
+    padding-right: 10rem;
 }
 
 .ProjectCard .left-panel h1 {
@@ -24,7 +24,7 @@
 }
 
 .ProjectCard .left-panel .links {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .ProjectCard .left-panel .links a {
@@ -48,7 +48,7 @@
 }
 
 .ProjectCard .right-panel {
-    padding: 2rem 0 2rem 2rem;
+    /* padding: 2rem 0 2rem 2rem; */
 }
 
 .ProjectCard .right-panel img {
@@ -62,7 +62,7 @@
 
 @media screen and (max-width: 2500px) {
     .ProjectCard .left-panel {
-        padding: 2rem 5rem 2rem 0rem;
+        padding-right: 5rem;
     }
     .ProjectCard .right-panel img {
         width: 500px;
@@ -77,7 +77,7 @@
 
 @media screen and (max-width: 1600px) {
     .ProjectCard .left-panel {
-        padding: 2rem 0rem 2rem 0rem;
+        padding-right: 4rem;
     }
     .ProjectCard .right-panel img {
         width: 400px;
@@ -106,13 +106,18 @@
 }
 
 @media screen and (max-width: 800px) {
+    .ProjectCard .left-panel {
+        padding-right: 0;
+    }
+
     .ProjectCard {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
+        margin: 8rem 0;
     }
     .ProjectCard .right-panel img {
-        width: 500px;
+        width: 100%;
     }
     .ProjectCard .left-panel >* {
         margin: 1.25rem 0;
@@ -128,6 +133,7 @@
     }
     .ProjectCard .left-panel .links a {
         font-size: 1rem;
+        width: 100%;
     }
 }
 
@@ -136,7 +142,7 @@
         padding: 0;
     }
     .ProjectCard .right-panel img {
-        width: 270px;
+        width: 100%;
     }
     .ProjectCard .left-panel .links {
         display: flex;
@@ -144,7 +150,7 @@
         align-items: center;
     }
     .ProjectCard .left-panel .links a {
-        width: 250px;
+        width: 100%;
         text-align: center;
         margin: .25rem 0;
     }
@@ -155,7 +161,7 @@
         padding: 0;
     }
     .ProjectCard .right-panel img {
-        width: 250px;
+        width: 100%;
     }
     .ProjectCard .left-panel {
         padding: 0;
@@ -165,7 +171,7 @@
         flex-direction: column;
     }
     .ProjectCard .left-panel .links a {
-        width: 250px;
+        width: 100%;
         margin: .10rem 0;
     }
 }

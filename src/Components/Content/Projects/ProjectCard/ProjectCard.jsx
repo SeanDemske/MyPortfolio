@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProjectCard.css"
+import Tilt from 'react-tilt'
 
 const ProjectCard = ({ data }) => {
     const { title, description, img, src, demo, blog } = data;
@@ -16,7 +17,9 @@ const ProjectCard = ({ data }) => {
                 </div>
             </div>
             <div className="right-panel">
-                <img src={img} alt={title}/>
+                <Tilt className="Tilt" options={{ max : 25 }} >
+                    <img src={img} alt={title}/>
+                </Tilt>
             </div>
         </div>
     );

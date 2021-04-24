@@ -2,6 +2,7 @@ import imgCookbook from "./img/project_Cookbook.png";
 import imgLetsGoal from "./img/project_LetsGoal.png";
 import imgMatching from "./img/project_MatchingMania.png"
 import imgPortfolio from "./img/project_Portfolio.png";
+import imgCovid from "./img/project_Covid.png";
 
 const ProjectData = [
     {
@@ -23,6 +24,14 @@ const ProjectData = [
     },
     {
         id: 2,
+        title: "Covid-19 Tracker",
+        description: "Fully responsive Covid 19 statistics display built with React, Material UI and ChartJS",
+        img: imgCovid,
+        src: "https://github.com/SeanDemske/covid-tracker",
+        demo: "https://seandemske.github.io/covid-tracker-live/",
+    },
+    {
+        id: 3,
         title: "Matching Mania",
         description: "See how effeciently you can match all the cards on the board! Built with plain old vanilla HTML, CSS and JavaScript",
         img: imgMatching,
@@ -30,7 +39,7 @@ const ProjectData = [
         demo: "https://seandemske.github.io/memory-game/",
     },
     {
-        id: 3,
+        id: 4,
         title: "Portfolio",
         description: "The website you are currently on right now! Designed using Figma and created using the React framework with CSS written from scratch",
         img: imgPortfolio,

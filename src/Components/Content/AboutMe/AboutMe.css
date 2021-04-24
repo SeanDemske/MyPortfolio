@@ -2,6 +2,18 @@
     text-align: center;
     font-size: 3rem;
     font-weight: 700;
+    position: relative;
+}
+
+.AboutMe h1:after {
+    content: "";
+    width: 75px;
+    height: 10px;
+    position: absolute;
+    background-color: red;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .AboutMe p {
@@ -27,6 +39,7 @@
 @media screen and (max-width: 800px) {
     .AboutMe h1 {
         font-size: 3rem;
+        text-align: left;
     }
 
     .AboutMe p {
@@ -37,6 +50,10 @@
 
     .AboutMe a {
         font-size: 1.5rem;
+    }
+
+    .AboutMe h1:after {
+        left: 35px;
     }
 }
     

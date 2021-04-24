@@ -141,18 +141,24 @@ a:hover {
 
     .TitleCard .left-panel .nav-links a {
         margin: .5rem 0;
-        width: 300px;
+        width: 100%;
     }
 
     .TitleCard .left-panel .my-name {
+        text-align: left;
         font-size: 2.5rem;
         font-weight: 600;
     }
     
     .TitleCard .left-panel .my-title {
+        text-align: left;
         color: #676767;
         font-size: 2.5rem;
         font-weight: 600;
+    }
+
+    .TitleCard .right-panel img {
+        display: none;
     }
 }
 

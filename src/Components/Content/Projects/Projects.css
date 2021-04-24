@@ -1,11 +1,29 @@
+
 .Projects h1 {
+    position: relative;
     text-align: center;
     font-size: 4rem;
     font-weight: 700;
 }
 
+.Projects #projects-section:after {
+    content: "";
+    width: 75px;
+    height: 10px;
+    position: absolute;
+    background-color: red;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 @media screen and (max-width: 800px) {
     .Projects h1 {
         font-size: 3rem;
+        text-align: left;
+    }
+
+    .Projects #projects-section:after {
+        left: 40px;
     }
 }
