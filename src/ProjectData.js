@@ -3,6 +3,7 @@ import imgLetsGoal from "./img/project_LetsGoal.png";
 import imgMatching from "./img/project_MatchingMania.png"
 import imgPortfolio from "./img/project_Portfolio.png";
 import imgCovid from "./img/project_Covid.png";
+import imgChatApp from "./img/project_ChatApp.png";
 
 const ProjectData = [
     {
@@ -32,6 +33,14 @@ const ProjectData = [
     },
     {
         id: 3,
+        title: "Live Chat App",
+        description: "Responsive live chat application built with SocketIO and React",
+        img: imgChatApp,
+        src: "https://github.com/SeanDemske/react-chat-application",
+        demo: "https://sleepy-euler-79a070.netlify.app/",
+    },
+    {
+        id: 4,
         title: "Matching Mania",
         description: "See how effeciently you can match all the cards on the board! Built with plain old vanilla HTML, CSS and JavaScript",
         img: imgMatching,
@@ -39,7 +48,7 @@ const ProjectData = [
         demo: "https://seandemske.github.io/memory-game/",
     },
     {
-        id: 4,
+        id: 5,
         title: "Portfolio",
         description: "The website you are currently on right now! Designed using Figma and created using the React framework with CSS written from scratch",
         img: imgPortfolio,
